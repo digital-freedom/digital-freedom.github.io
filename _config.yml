@@ -1,0 +1,61 @@
+# Site settings
+
+url: "http://digitalfreedom.me"
+author: "Ranald Mackay"
+title: "{ Ranald Mackay }"
+description: "Website design and development in the North of Scotland"
+keywords: "Website design development Brora"
+favicon: "/img/favicon.ico"
+black-favicon: "/img/black-lab-glass.ico"
+google-tracking-id: "UA-67057734-1"
+#disqus-shortname: "panossakkos"
+
+# Navigation bar links
+# Blog link in the blog and post pages will point to the blog.html#blog
+# In the default page it will point to the preview of the last post
+
+pages_list:
+  About: 'about'
+  Blog: 'blog'
+  Projects: 'projects'
+  Contact: 'contact'
+
+background-img: "/img/intro-bg.jpg"
+
+# About variables
+
+me-img: "/img/me.jpg"
+
+# Blog variables
+paginate: 15
+
+paginate_path: "blog/page:num"
+
+post-preview-words: 128
+
+fb-share: True
+twitter-share: True
+reddit-share: False
+
+# Project variables
+
+collections:
+  projects:
+    output: true
+
+# First image of the Career timeline
+career-img: "/img/projects/default.jpg"
+
+# Social networks variables (many more available: facebook, flickr, dribbble, pinterest, instagram, tumblr etc.)
+social:
+  - title: "facebook"
+    url: "https://www.facebook.com/linuxadvice"
+  - title: "twitter"
+    url: "https://twitter.com/linuxadvice"
+  - title: "rss"
+    url: "/feed.xml"
+
+404-img: "/img/labtocat.png"
+
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
