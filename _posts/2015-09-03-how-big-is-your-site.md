@@ -5,7 +5,7 @@ title: How big is your site?
 category: 
 tags: 
 ---
-When I sat down to start creating the new [Brora Rangers FC](http://brorarangersfc) website I had a good hard think about what it really had to achieve. 
+When I sat down to start creating the new [Brora Rangers FC](http://brorarangers.football) website I had a good hard think about what it really had to achieve. 
 
 My two main frustrations with the existing site, and many websites, was how long it took for the page to appear and allow me to interact with it, and the difficulty of finding the particular piece of information I was looking for. Navigation and layout can be chopped and changed once a site is up and running and I can analyse how people use it. Site speed needs some consideration before a single line of code is written.
 
