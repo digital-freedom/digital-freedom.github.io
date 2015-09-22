@@ -17,3 +17,5 @@ A browse through dozens and dozens of the official websites of football clubs fr
 The Board's wish to push the new site live as early in the season as possible helped decide the overall design. By splitting sections into modules on the home page we were able to launch the site with the sections the Club felt were most important first and will be able to add additional features as the season progresses.
 
 It was also the modular approach that tempted me to break away from the standard clunky Content Management Systems that are usually employed for this type of site, with all the security risks and requirement for relatively expensive servers that come with them. News items, match reports etc are stored in simple text files; player statistics, fixtures and results live in spreadsheets that the site automatically picks up any updates from.
+
+It gives the Club an extremely fast site that is incredibly easy to administer and keep up to date.
