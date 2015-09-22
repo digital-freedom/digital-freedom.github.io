@@ -1,8 +1,12 @@
+<!-- Facebook -->
 <meta property="og:title" content="{{ site.title }} {% if page.title %} | {{ page.title }}{% endif %}" />
 <meta property="og:type" content="article" />
 <meta property="og:image" content="{{ site.url }}/img/opengraph.jpg" />
 <meta property="article:author"
       content="https://www.facebook.com/linuxadvice" />
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+<!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
-
+<meta name="twitter:site" content="@nytimes">
+<meta name="twitter:title" content="{{ site.title }} {% if page.title %} | {{ page.title }}{% endif %}">
+<meta name="twitter:image" content="{{ site.url }}/img/opengraph.jpg">
