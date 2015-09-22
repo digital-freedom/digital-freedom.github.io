@@ -10,4 +10,4 @@
 <meta name="twitter:site" content="@linuxadvice">
 <meta name="twitter:title" content="{{ site.title }} {% if page.title %} | {{ page.title }}{% endif %}">
 <meta name="twitter:image" content="{{ site.url }}/img/opengraph.jpg">
-<meta name="twitter:description" content="NEWARK - The guest list and parade of limousines with celebrities emerging from them seemed more suited to a red carpet event in Hollywood or New York than than a gritty stretch of Sussex Avenue near the former site of the James M. Baxter Terrace public housing project here.">
+<meta name="twitter:description" content="{{ post.content | truncatewords: site.post-preview-words | strip_html | markdownify }}">
