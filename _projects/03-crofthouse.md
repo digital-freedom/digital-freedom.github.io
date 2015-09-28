@@ -5,10 +5,11 @@ image: "/img/projects/crofthouse.jpg"
 link: "http://borvecrofthouse.co.uk"
 description: "Located in Borve, a small crofting community on the west of Harris, I wanted to build a site that made it as easy as possible for visitors to see what was on offer and for the site owner to keep up to date"
 layout: projects
+feature-image: /img/projects/crofthouse_screens.jpg
 ---
 The Croft House is a lovely modernised croft in Borve on the west coast of Harris.
 
-![The Croft House in Borve, Isle of Harris website on different screen sizes](/img/projects/crofthouse_screens.jpg){: .img-responsive}
+![The Croft House in Borve, Isle of Harris website on different screen sizes]({{ page.feature-image }}){: .img-responsive}
 
 The owners have plenty to do without worrying about how their website works. They need to let visitors to the site see when the cottage is booked and when it is free, and this needs to be live, up to date information. Many websites require that you log into an admin panel to update this ... not on The Croft House website. All the booking information is kept up to date on the same Google Calendar that they use to keep track of who is arriving when anyway. Update confirmed bookings in one place, and let the website take care of itself.
 

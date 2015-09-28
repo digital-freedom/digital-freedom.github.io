@@ -1,7 +1,11 @@
 <!-- Facebook -->
 <meta property="og:title" content="{{ site.title }} {% if page.title %} | {{ page.title }}{% endif %}" />
 <meta property="og:type" content="article" />
+{% if page.feature-image %}
+<meta property="og:image" content="{{ site.url }}{{ page.feature-image }}" />
+{% else %}
 <meta property="og:image" content="{{ site.url }}/img/opengraph.jpg" />
+{% endif %}
 <meta property="article:author"
       content="https://www.facebook.com/linuxadvice" />
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
@@ -10,5 +14,9 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@linuxadvice">
 <meta name="twitter:title" content="{{ site.title }} {% if page.title %} | {{ page.title }}{% endif %}">
+{% if page.feature-image %}
+<meta name="twitter:image" content="{{ site.url }}{{ page.feature-image }}">
+{% else %}
 <meta name="twitter:image" content="{{ site.url }}/img/opengraph.jpg">
+{% endif %}
 <meta name="twitter:description" content="{{ page.content | truncatewords: 40 | markdownify | strip_html }}">
