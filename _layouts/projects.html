@@ -12,7 +12,7 @@
 
       <div class="col-lg-8 col-lg-offset-2">
         <h1 class="text-center"><strong>{{ page.title }}</strong></h1>
-        <a href="{{ page.link }}"><h2 class="lead text-center">{{ page.link }}</h2></a>
+        <a href="{{ page.link }}"><h2 class="lead text-center">{{ page.link | remove_first:'http://' }}</h2></a>
       	{{ page.content | markdownify }}
 
       </div>
