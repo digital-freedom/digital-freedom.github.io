@@ -8,7 +8,7 @@ layout: projects
 ---
 The folks at Isle of Harris Car Hire had only one thing on their mind when we first discussed building a new website. Google Search, first place, top of the page, numero uno.
 
-![Isle of Harris Car Hire website on different screen sizes](/img/projects/harris_car_hire_screens.jpg){: .img-responsive}
+[![Isle of Harris Car Hire website on different screen sizes](/img/projects/harris_car_hire_screens.jpg){: .img-responsive}]({{ page.link }})
 
 They had an existing website, which wasn't mobile friendly, and wasn't receiving much traffic. It was built with [Webydo](http://www.webydo.com/), one of the many online website builders which claim to make creating the perfect website easy. It doesn't. To be honest, it doesn't even make creating a pretty poor website easy.
 

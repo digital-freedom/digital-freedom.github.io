@@ -10,7 +10,7 @@ Brora Rangers FC are an ambitious Club currently playing in the Scottish Highlan
 
 As part of their ambitions for the Club it was decided that a new website was in order. The brief was simple ... it had to be fast, it had to work well on mobile devices, and it had to stand out from the crowd.
 
-![Brora rangers FC website on different screen sizes](/img/projects/brora_rangers_screens.jpg){: .img-responsive}
+[![Brora rangers FC website on different screen sizes](/img/projects/brora_rangers_screens.jpg){: .img-responsive}]({{ page.link }})
 
 A browse through dozens and dozens of the official websites of football clubs from leagues throughout the UK and Europe left me with the sinking feeling that this was a part of the web which was stuck in the era of Berti Vogts and all that was dismal and drab. (Or worse, colourful, garish and confusing.)
 
